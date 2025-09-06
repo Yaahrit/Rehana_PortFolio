@@ -73,22 +73,50 @@
                 <i class="ri-menu-3-line"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav text-center">
+                <ul class="navbar-nav align-items-center text-center">
                     <li class="nav-item"><a class="nav-link text-white" href="#hero">Home</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#qualification">Qualification</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#project">Projects</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
-                    <li class="nav-item">
-                        <a href="pdf/Rehana.pdf" class="btn btn-success ms-lg-3 mt-2 mt-lg-0" download>
-                            <i class="ri-download-line"></i> Resume
+
+                    <!-- Resume Buttons -->
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0 d-flex gap-2">
+                        <!-- View Resume -->
+                        <button type="button" class="btn btn-outline-success d-flex align-items-center"
+                            data-bs-toggle="modal" data-bs-target="#resumeModal">
+                            <i class="ri-eye-line me-1"></i> View
+                        </button>
+                        <!-- Download Resume -->
+                        <a href="pdf/Rehana_Secured.pdf" class="btn btn-success d-flex align-items-center" download>
+                            <i class="ri-download-line me-1"></i> Download
                         </a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+
+    <!-- Resume Modal (Fullscreen on Mobile) -->
+    <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-sm-down">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resumeModalLabel">My Resume</h5>
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0" style="height:80vh;">
+                    <iframe src="pdf/Rehana_Secured.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                        style="width:100%; height:100%;" frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Main -->
     <main class="main" style="margin-top: 100px;">
@@ -137,13 +165,13 @@
                 <!-- About Content -->
                 <div class="row g-5 align-items-center">
                     <div class="col-md-6 text-center text-md-start" data-aos="fade-right">
-                        <h3 class="about__title">I am a Full-Stack Software Developer</h3>
+                        <h3 class="about__title">Aspiring Data Analyst</h3>
                         <p class="about__description">
-                            I am a Full-Stack Software Developer with a strong technical foundation and a passion for
+                            I am an Aspiring Data Analyst with a strong technical foundation and a passion for
                             designing and building scalable, user-centric applications. Skilled in Python, MongoDB, and
                             SQL, I focus on crafting seamless front-end experiences backed by powerful, efficient
                             backend systems.
-                            <br><br>
+                            <br>
                             Beyond code, I continuously explore the latest trends in tech, push my learning boundaries,
                             and collaborate to deliver results that matter.
                         </p>
@@ -166,60 +194,65 @@
                     <h2 class="section__title">Technologies I Work With</h2>
                     <div class="underline-bar mx-auto"
                         style="width: 60px; height: 4px; background: #00ffae; border-radius: 4px;"></div>
-                    <p class="text-muted mt-2">Here’s a quick overview of the tools and technologies I’ve used in my
-                        projects.</p>
+                    <p class="text-muted mt-2">Here’s a quick overview of the tools and technologies I use for data
+                        analysis.</p>
                 </div>
 
                 <!-- Skills Grid -->
                 <div class="row g-4 justify-content-center">
-                    <!-- Languages -->
+                    <!-- Programming Languages -->
                     <div class="col-md-6 col-lg-4" data-aos="fade-up">
                         <div class="bg-secondary rounded p-4 h-100">
-                            <h5 class="skills__title">Languages</h5>
+                            <h5 class="skills__title">Programming Languages</h5>
                             <ul class="list-unstyled">
                                 <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Python</li>
-                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>C</li>
-                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>C++</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>R</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>SQL</li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Frontend -->
+                    <!-- Data Analysis & Visualization -->
                     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="bg-secondary rounded p-4 h-100">
-                            <h5 class="skills__title">Frontend</h5>
+                            <h5 class="skills__title">Data Analysis & Visualization</h5>
                             <ul class="list-unstyled">
-                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>HTML</li>
-                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>CSS</li>
-                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Bootstrap</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Backend -->
-                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="bg-secondary rounded p-4 h-100">
-                            <h5 class="skills__title">Backend</h5>
-                            <ul class="list-unstyled">
-                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Django</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Pandas</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>NumPy</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Matplotlib</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Seaborn</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Tableau / Power BI</li>
                             </ul>
                         </div>
                     </div>
 
                     <!-- Databases -->
-                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="bg-secondary rounded p-4 h-100">
                             <h5 class="skills__title">Databases</h5>
                             <ul class="list-unstyled">
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>MySQL</li>
                                 <li><i class="ri-arrow-right-s-fill text-success me-2"></i>PostgreSQL</li>
                                 <li><i class="ri-arrow-right-s-fill text-success me-2"></i>MongoDB</li>
-                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Other Tools -->
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="bg-secondary rounded p-4 h-100">
+                            <h5 class="skills__title">Other Tools</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Excel / Google Sheets</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Jupyter Notebook</li>
+                                <li><i class="ri-arrow-right-s-fill text-success me-2"></i>Google Data Studio</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
 
     </main>
@@ -312,7 +345,7 @@
                 <h2 class="fw-bold text-primary">My Services</h2>
                 <div class="underline-bar mx-auto mb-3"
                     style="width: 60px; height: 4px; background: #00ff99; border-radius: 4px;"></div>
-                <p class="text-muted">What I can do for you as a Developer & Designer</p>
+                <p class="text-muted">What I can do for you as a Data Analyst</p>
             </div>
 
             <!-- Swiper Container -->
@@ -322,40 +355,50 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="bg-black text-center p-4 rounded shadow h-100">
-                            <i class="ri-layout-4-fill fs-1 text-info mb-3"></i>
-                            <h5 class="fw-semibold mb-2">Front-End Development</h5>
-                            <p class="text-secondary">Responsive and engaging UI using HTML,CSS,JS,and modern
-                                frameworks.</p>
+                            <i class="ri-bar-chart-fill fs-1 text-info mb-3"></i>
+                            <h5 class="fw-semibold mb-2">Data Analysis</h5>
+                            <p class="text-secondary">Analyze datasets to extract insights, trends, and patterns for
+                                informed decision-making.</p>
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
                         <div class="bg-black text-center p-4 rounded shadow h-100">
-                            <i class="ri-pen-nib-fill fs-1 text-warning mb-3"></i>
-                            <h5 class="fw-semibold mb-2">UI/UX Design</h5>
-                            <p class="text-secondary">Clean, intuitive interfaces prioritizing user experience and
-                                modern design.</p>
+                            <i class="ri-pie-chart-fill fs-1 text-warning mb-3"></i>
+                            <h5 class="fw-semibold mb-2">Data Visualization</h5>
+                            <p class="text-secondary">Create interactive dashboards and visualizations using tools like
+                                Tableau, Power BI, and Matplotlib.</p>
                         </div>
                     </div>
 
                     <!-- Slide 3 -->
                     <div class="swiper-slide">
                         <div class="bg-black text-center p-4 rounded shadow h-100">
-                            <i class="ri-code-s-slash-line fs-1 text-success mb-3"></i>
-                            <h5 class="fw-semibold mb-2">Full-Stack Development</h5>
-                            <p class="text-secondary">Complete apps using Node.js, Express, and MongoDB with a secure
-                                backend.</p>
+                            <i class="ri-database-fill fs-1 text-success mb-3"></i>
+                            <h5 class="fw-semibold mb-2">Database Management</h5>
+                            <p class="text-secondary">Work with SQL, PostgreSQL, and MongoDB to extract, clean, and
+                                manage data efficiently.</p>
                         </div>
                     </div>
 
                     <!-- Slide 4 -->
                     <div class="swiper-slide">
                         <div class="bg-black text-center p-4 rounded shadow h-100">
-                            <i class="ri-smartphone-line fs-1 text-danger mb-3"></i>
-                            <h5 class="fw-semibold mb-2">Responsive Design</h5>
-                            <p class="text-secondary">Perfect adaptability across mobile, tablet, and desktop devices.
-                            </p>
+                            <i class="ri-file-text-fill fs-1 text-danger mb-3"></i>
+                            <h5 class="fw-semibold mb-2">Reporting & Insights</h5>
+                            <p class="text-secondary">Prepare actionable reports and summaries to help stakeholders make
+                                data-driven decisions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 (Optional) -->
+                    <div class="swiper-slide">
+                        <div class="bg-black text-center p-4 rounded shadow h-100">
+                            <i class="ri-robot-fill fs-1 text-primary mb-3"></i>
+                            <h5 class="fw-semibold mb-2">Data Automation</h5>
+                            <p class="text-secondary">Automate repetitive tasks using Python scripts and data pipelines
+                                to save time and reduce errors.</p>
                         </div>
                     </div>
 
@@ -501,10 +544,15 @@
                 <a href="mailto:rehanaparween0012@gmail.com" class="footer-icon">
                     <i class="ri-mail-line"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/rehana-parween-41b057329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer-icon">
+                <a href="https://www.linkedin.com/in/rehana-parween-41b057329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank" class="footer-icon">
                     <i class="ri-linkedin-fill"></i>
                 </a>
+                <a href="https://github.com/Rehana-04" target="_blank" class="footer-icon">
+                    <i class="ri-github-fill"></i>
+                </a>
             </div>
+
 
             <hr class="border-secondary my-3" style="opacity: 0.2;">
             <p class="small text-secondary mb-0">
