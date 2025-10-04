@@ -1,25 +1,78 @@
 # 🌐 Rehana Parween - Developer Portfolio
 ![Portfolio Screenshot](rehana.png)&nbsp;&nbsp;
 
-[![Website](https://img.shields.io/badge/Website-rehanacode.netlify.app-blue?style=for-the-badge)](https://rehanacode.netlify.app)&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-Rehana--04-black?style=for-the-badge)](https://github.com/Rehana-04)&nbsp;
-[![Email](https://img.shields.io/badge/Email-rehanaparween0012@gmail.com-red?style=for-the-badge)]&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rehana%20Parween-blue?style=for-the-badge)](https://www.linkedin.com/in/rehana-parween-41b057329/)
+# 🌟 Rehana Parween – Developer Portfolio
 
-
- 
-This is a fully responsive and elegant portfolio website for **Rehana Parween**, built using **HTML, CSS, Bootstrap**, and custom **JavaScript**. It showcases Rehana's skills, qualifications, projects, and contact information in a professional, modern layout.
+[![Website](https://img.shields.io/badge/Website-rehanacode.netlify.app-blue?style=for-the-badge)](https://rehanacode.netlify.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Rehana--04-black?style=for-the-badge)](https://github.com/Rehana-04)
+[![Email](https://img.shields.io/badge/Email-rehanaparween0012@gmail.com-red?style=for-the-badge)]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rehana%20Parween-blue?style=for-the-badge)]
 
 ---
 
-## 📌 Live Preview
+## 🌐 Live Preview
 
-🔗 [Visit Website on Netlify](https://rehanacode.netlify.app)
+🔗 [Visit Live Portfolio on Netlify](https://rehanacode.netlify.app)
 
 ---
 
-## 📁 Project Structure
-## rehanaPortfolio/
+## 🎯 About Me
+
+Hi! I’m **Rehana Parween**, an aspiring **Data Analyst & Developer** passionate about building efficient systems, exploring innovative solutions, and visualizing insights from data.  
+
+- 🎓 MCA Student at GNIOT Group of Institutions  
+- 💻 Skills: Python, SQL, R, Data Visualization, Web Development  
+- 📈 Focus: Data Analysis, Automation, and Dashboarding  
+
+[📫 Hire Me](mailto:rehanaparween0012@gmail.com)
+
+---
+
+## 🛠️ Technologies & Tools
+
+| Category | Tools |
+|----------|------|
+| Programming Languages | Python, R, SQL |
+| Data Analysis & Visualization | Pandas, NumPy, Matplotlib, Seaborn, Tableau, Power BI |
+| Databases | MySQL, PostgreSQL, MongoDB |
+| Web Development | HTML5, CSS3, Bootstrap 5, JavaScript |
+| Others | Excel, Google Sheets, Jupyter Notebook, Google Data Studio |
+
+---
+
+## 💼 Services
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Data%20Analysis-blue?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data%20Visualization-green?style=for-the-badge&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database%20Management-yellow?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Reporting%20&%20Insights-red?style=for-the-badge&logo=powerbi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data%20Automation-purple?style=for-the-badge&logo=python&logoColor=white" />
+</div>
+
+---
+
+## 🖼️ Portfolio Screenshots
+
+<div align="center">
+  <a href="https://rehanacode.netlify.app" target="_blank">
+    <img src="img/home-screenshot.png" alt="Homepage Screenshot" width="250" style="margin:5px;" />
+  </a>
+  <a href="https://rehanacode.netlify.app#about" target="_blank">
+    <img src="img/about-screenshot.png" alt="About Section Screenshot" width="250" style="margin:5px;" />
+  </a>
+  <a href="https://rehanacode.netlify.app#projects" target="_blank">
+    <img src="img/projects-screenshot.png" alt="Projects Screenshot" width="250" style="margin:5px;" />
+  </a>
+</div>
+
+*Click on screenshots to view live sections.*
+
+---
+
+## 📂 Project Structure
+
+rehanaPortfolio/
 ├── index.html
 ├── css/
 │ └── style.css
@@ -28,40 +81,22 @@ This is a fully responsive and elegant portfolio website for **Rehana Parween**,
 ├── img/
 │ └── images & icons
 ├── pdf/
-│ └── RehanaResume.pdf ##
+│ └── RehanaResume.pdf
+
+
 
 
 ---
 
-## ✨ Key Features
+## 🚀 Projects
 
-- 💼 **Responsive Design:** Built with Bootstrap 5 for all devices  
-- 🖥️ **Hero Section:** Dynamic typewriter effect (Typed.js)  
-- 📝 **Resume Modal & Download Button**  
-- 📊 **Skills Section:** Data analysis and visualization stack  
-- 🖼️ **Projects Section:** Interactive cards and Swiper.js slider  
-- 📬 **Contact Form & Google Map**  
-- 💡 **Glassmorphism Footer** with newsletter subscription  
-- 🔝 **Scroll-to-Top Button**  
-- 🌟 **Smooth Animations:** AOS.js for scrolling effects  
+| Project | Description | Link |
+|---------|-------------|------|
+| Smart Air Quality System | IoT-based system monitoring air quality with a web dashboard | [View](#) |
+| Portfolio Website | Personal portfolio built with HTML, CSS, Bootstrap & JS | [View](https://rehanacode.netlify.app) |
+| Expense Tracker | Web app for personal finance management using HTML, CSS & JS | [View](#) |
 
----
-
-## 🚀 Technologies & Tools
-
-- **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript (ES6)  
-- **Icons & Fonts:** [Remix Icons](https://remixicon.com/), Google Fonts  
-- **Animations:** [AOS.js](https://michalsnik.github.io/aos/), [Typed.js](https://github.com/mattboldt/typed.js)  
-- **Slider:** [Swiper.js](https://swiperjs.com/)  
-- **Data & Analytics Skills:** Python, R, SQL, Pandas, NumPy, Matplotlib, Seaborn, Tableau, Power BI  
-- **Databases:** MySQL, PostgreSQL, MongoDB  
-- **Other Tools:** Excel, Google Sheets, Jupyter Notebook, Google Data Studio  
-
----
-
-## 🧑‍💻 About Me
-
-I am an **aspiring Data Analyst** passionate about building scalable applications and analyzing meaningful insights from data. Skilled in Python, SQL, and visualization tools, I strive to deliver clean, efficient, and user-focused solutions.
+🔗 [See More Projects on GitHub](https://github.com/Rehana-04)
 
 ---
 
@@ -69,52 +104,29 @@ I am an **aspiring Data Analyst** passionate about building scalable application
 
 | Degree | Institution | Year | Score |
 |--------|------------|------|-------|
-| Master of Computer Applications (M.C.A.) | GNIOT Group of Institutions | 2024-Present | Ongoing |
-| Bachelor of Computer Applications (B.C.A.) | Vinobha Bhave University | 2021-2024 | 66.9% |
-| XII (Intermediate) | Board of Intermediate Education | 2021 | 72% |
-| X (Matriculation) | Board of Secondary Education | 2019 | 82.8% |
-
----
-
-## 💻 Skills
-
-**Programming Languages:** Python, R, SQL  
-**Data Analysis & Visualization:** Pandas, NumPy, Matplotlib, Seaborn, Tableau, Power BI  
-**Databases:** MySQL, PostgreSQL, MongoDB  
-**Other Tools:** Excel, Google Sheets, Jupyter Notebook, Google Data Studio  
-
----
-
-## 🛠️ Services
-
-- **Data Analysis:** Extract insights and trends from datasets  
-- **Data Visualization:** Interactive dashboards & charts  
-- **Database Management:** SQL, PostgreSQL, MongoDB  
-- **Reporting & Insights:** Actionable reports for decision-making  
-- **Data Automation:** Python scripts & pipelines to reduce errors  
-
----
-
-## 🖼️ Projects
-
-| Project | Description | Link |
-|---------|-------------|------|
-| Smart Air Quality System | IoT-based system monitoring air quality with a web dashboard | [View Project](#) |
-| Portfolio Website | Personal portfolio built with HTML, CSS, Bootstrap & JS | [View Project](#) |
-| Expense Tracker | Web app for personal finance management using HTML, CSS & JS | [View Project](#) |
-
-🔗 [View More Projects on GitHub](https://github.com/Rehana-04)
+| MCA | GNIOT Group of Institutions | 2024-Present | Ongoing |
+| BCA | Vinobha Bhave University | 2021-2024 | 66.9% |
+| XII | Board of Intermediate Education | 2021 | 72% |
+| X | Board of Secondary Education | 2019 | 82.8% |
 
 ---
 
 ## 📫 Contact Me
 
-- **Email:** [rehanaparween0012@gmail.com](mailto:rehanaparween0012@gmail.com)  
-- **LinkedIn:** [Rehana Parween](https://www.linkedin.com/in/rehana-parween-41b057329/)  
-- **GitHub:** [Rehana-04](https://github.com/Rehana-04)  
+<div align="center">
+  <a href="mailto:rehanaparween0012@gmail.com"><img src="https://img.shields.io/badge/Email-rehanaparween0012@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/rehana-parween-41b057329/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Rehana%20Parween-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/Rehana-04" target="_blank"><img src="https://img.shields.io/badge/GitHub-Rehana--04-black?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
 
 ---
 
 ## 📄 License
 
-This project is **open-source** and free to use. Attribution appreciated but not required.
+This project is **open-source** and free to use. Attribution is appreciated but not required.
+
+---
+
+<p align="center">
+  Made with ❤️ by <b>Rehana Parween</b>
+</p>
