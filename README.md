@@ -1,12 +1,13 @@
-# 🌐 Rehana Parween - Developer Portfolio
-![Portfolio Screenshot](rehana.png)&nbsp;&nbsp;
-
 # 🌟 Rehana Parween – Developer Portfolio
 
-![Website](https://img.shields.io/badge/Website-rehanacode.netlify.app-blue?style=for-the-badge)(https://rehanacode.netlify.app)
-![GitHub](https://img.shields.io/badge/GitHub-Rehana--04-black?style=for-the-badge)(https://github.com/Rehana-04)
-![Email](https://img.shields.io/badge/Email-rehanaparween0012@gmail.com-red?style=for-the-badge)
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Rehana%20Parween-blue?style=for-the-badge)
+![Portfolio Screenshot](rehana.png)&nbsp;&nbsp;
+
+
+[![Website](https://img.shields.io/badge/Website-rehanacode.netlify.app-blue?style=for-the-badge)](https://rehanacode.netlify.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Rehana--04-black?style=for-the-badge)](https://github.com/Rehana-04)
+[![Email](https://img.shields.io/badge/Email-rehanaparween0012@gmail.com-red?style=for-the-badge)](mailto:rehanaparween0012@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rehana%20Parween-blue?style=for-the-badge)](https://www.linkedin.com/in/rehana-parween-41b057329/)
+
 
 ---
 
