@@ -3,10 +3,10 @@
 
 # 🌟 Rehana Parween – Developer Portfolio
 
-[![Website](https://img.shields.io/badge/Website-rehanacode.netlify.app-blue?style=for-the-badge)](https://rehanacode.netlify.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Rehana--04-black?style=for-the-badge)](https://github.com/Rehana-04)
-[![Email](https://img.shields.io/badge/Email-rehanaparween0012@gmail.com-red?style=for-the-badge)]
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rehana%20Parween-blue?style=for-the-badge)]
+![Website](https://img.shields.io/badge/Website-rehanacode.netlify.app-blue?style=for-the-badge)(https://rehanacode.netlify.app)
+![GitHub](https://img.shields.io/badge/GitHub-Rehana--04-black?style=for-the-badge)(https://github.com/Rehana-04)
+![Email](https://img.shields.io/badge/Email-rehanaparween0012@gmail.com-red?style=for-the-badge)
+![LinkedIn](https://img.shields.io/badge/LinkedIn-Rehana%20Parween-blue?style=for-the-badge)
 
 ---
 
@@ -51,20 +51,6 @@ Hi! I’m **Rehana Parween**, an aspiring **Data Analyst & Developer** passionat
 </div>
 
 ---
-
-## 🖼️ Portfolio Screenshots
-
-<div align="center">
-  <a href="https://rehanacode.netlify.app" target="_blank">
-    <img src="img/home-screenshot.png" alt="Homepage Screenshot" width="250" style="margin:5px;" />
-  </a>
-  <a href="https://rehanacode.netlify.app#about" target="_blank">
-    <img src="img/about-screenshot.png" alt="About Section Screenshot" width="250" style="margin:5px;" />
-  </a>
-  <a href="https://rehanacode.netlify.app#projects" target="_blank">
-    <img src="img/projects-screenshot.png" alt="Projects Screenshot" width="250" style="margin:5px;" />
-  </a>
-</div>
 
 *Click on screenshots to view live sections.*
 
