@@ -17,6 +17,7 @@ It showcases Rehana's skills, qualifications, projects, and contact information 
 
 ## 📁 Project Structure
 
+'''
 rehanaPortfolio/
 ├── index.html
 ├── css/
@@ -27,6 +28,7 @@ rehanaPortfolio/
 │ └── images & icons
 ├── pdf/
 │ └── RehanaResume.pdf
+'''
 
 
 
