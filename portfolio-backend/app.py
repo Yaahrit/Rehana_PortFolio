@@ -24,6 +24,14 @@ mail = Mail(app)
 # Routes
 # ----------------------
 
+@app.route("/")
+def home():
+    return jsonify({
+        "message": "Welcome to Rehana Portfolio Backend!",
+        "status": "running"
+    })
+
+
 @app.route('/contact', methods=['POST'])
 def contact():
     data = request.get_json()
