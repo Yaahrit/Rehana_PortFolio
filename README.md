@@ -21,6 +21,7 @@
 
 Hi! I’m **Rehana Parween**, an aspiring **Data Analyst & Developer** passionate about building efficient systems, exploring innovative solutions, and visualizing insights from data.  
 
+
 - 🎓 MCA Student at GNIOT Group of Institutions  
 - 💻 Skills: Python, SQL, R, Data Visualization, Web Development  
 - 📈 Focus: Data Analysis, Automation, and Dashboarding  
@@ -58,7 +59,7 @@ Hi! I’m **Rehana Parween**, an aspiring **Data Analyst & Developer** passionat
 ---
 
 ## 📂 Project Structure
-
+```
 rehanaPortfolio/
 ├── index.html
 ├── css/
