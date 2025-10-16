@@ -517,21 +517,20 @@
             <div class="row g-4">
                 <!-- Contact Form -->
                 <div class="col-md-6">
-                    <form>
+                    <form id="contactForm">
                         <div class="mb-3">
                             <label for="name" class="form-label">Your Name</label>
-                            <input type="text" class="form-control bg-secondary text-white border-0" id="name"
-                                placeholder="Enter your name" required>
+                            <input type="text" id="name" class="form-control bg-secondary text-white border-0" required>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Your Email</label>
-                            <input type="email" class="form-control bg-secondary text-white border-0" id="email"
-                                placeholder="Enter your email" required>
+                            <input type="email" id="email" class="form-control bg-secondary text-white border-0"
+                                required>
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Your Message</label>
-                            <textarea class="form-control bg-secondary text-white border-0" id="message" rows="4"
-                                placeholder="Write your message here..." required></textarea>
+                            <textarea id="message" class="form-control bg-secondary text-white border-0" rows="4"
+                                required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary px-4">Send Message</button>
                     </form>
@@ -551,8 +550,6 @@
         </div>
     </section>
 
-
-    <!-- Footer -->
     <!-- Footer Start -->
     <footer class="footer-glass text-light pt-5 pb-4">
         <div class="container text-center">
